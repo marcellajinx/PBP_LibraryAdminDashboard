@@ -1,0 +1,30 @@
+.header {
+   display: flex;
+}
+
+.kiri {
+   flex-grow: 8;
+}
+
+.kanan {
+   flex-grow: 1;
+}
+
+.height {
+   height: 150px;
+}
+.foto-height {
+   height: 345px;
+}
+.flexbox {
+   flex-direction: column;
+}
+.bawah {
+   align-items: flex-end;
+}
+.deskripsi {
+   height: 32%;
+}
+.user {
+   color: white;
+}

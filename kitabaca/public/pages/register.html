@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - Ecommerce Tailwind</title>
+
+    <link rel="shortcut icon" href="../assets/images/favicon/favicon.ico" type="image/x-icon">
+
+    <link rel="stylesheet" href="../assets/css/main.css">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Roboto:wght@400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="../../node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+</head>
+
+<body>
+    <!-- header -->
+    <nav class="bg-gray-800">
+        <div class="container flex px-8 py-4">
+            <!-- <div class="px-8 py-4 flex items-center cursor-pointer relative group"> -->
+            <div class="kiri">
+                <div class="space-x-6 capitalize mt-1">
+                    <a href="index.html" class="text-gray-200 hover:text-white transition">Home</a>
+                    <a href="pages/books.html" class="text-gray-200 hover:text-white transition">Books</a>
+                    <a href="#" class="text-gray-200 hover:text-white transition">About us</a>
+                    <!-- <a href="#" class="text-gray-200 hover:text-white transition">Contact us</a> -->
+                </div>
+            </div>
+            <div class="kanan flex space-x-6">
+                <!-- <a href="" style="margin-top: 3px;"><img src="icons/search.svg"  alt=""></a> -->
+                <div class="w-full relative flex">
+                    <span class="absolute left-4 top-3 text-lg text-gray-400">
+                        <i class="fa-solid fa-magnifying-glass"></i>
+                    </span>
+                    <input type="text" name="search" id="search"
+                        class="w-full border border-primary border-r-0 pl-9 py-1 pr-1 rounded-l-md focus:outline-none"
+                        placeholder="search">
+                    <button
+                        class="bg-primary border border-primary text-white px-8 rounded-r-md hover:bg-transparent hover:text-primary transition">Search</button>
+                </div>
+                <a href="pages/login.html" class="text-gray-200 hover:text-white transition mt-1">Login/Register</a>
+            </div>
+        </div>
+    </nav>
+    <!-- ./navbar -->
+
+    <!-- login -->
+    <div class="contain py-16">
+        <div class="max-w-lg mx-auto shadow px-6 py-7 rounded overflow-hidden">
+            <h2 class="text-2xl uppercase font-medium mb-1">Create an account</h2>
+            <p class="text-gray-600 mb-6 text-sm">
+                Register for new cosutumer
+            </p>
+            <form action="#" method="post" autocomplete="off">
+                <div class="space-y-2">
+                    <div>
+                        <label for="name" class="text-gray-600 mb-2 block">Full Name</label>
+                        <input type="text" name="name" id="name"
+                            class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
+                            placeholder="fulan fulana">
+                    </div>
+                    <div>
+                        <label for="email" class="text-gray-600 mb-2 block">Email address</label>
+                        <input type="email" name="email" id="email"
+                            class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
+                            placeholder="youremail.@domain.com">
+                    </div>
+                    <div>
+                        <label for="password" class="text-gray-600 mb-2 block">Password</label>
+                        <input type="password" name="password" id="password"
+                            class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
+                            placeholder="*******">
+                    </div>
+                    <div>
+                        <label for="confirm" class="text-gray-600 mb-2 block">Confirm password</label>
+                        <input type="password" name="confirm" id="confirm"
+                            class="block w-full border border-gray-300 px-4 py-3 text-gray-600 text-sm rounded focus:ring-0 focus:border-primary placeholder-gray-400"
+                            placeholder="*******">
+                    </div>
+                </div>
+                <div class="mt-4">
+                    <button type="submit"
+                        class="block w-full py-2 text-center text-white bg-primary border border-primary rounded hover:bg-transparent hover:text-primary transition uppercase font-roboto font-medium">create
+                        account</button>
+                </div>
+            </form>
+            <!-- ./login with -->
+
+            <p class="mt-4 text-center text-gray-600">Already have account? <a href="login.html"
+                    class="text-primary">Login now</a></p>
+        </div>
+    </div>
+    <!-- ./login -->
+
+
+    <!-- copyright -->
+    <div class="bg-gray-800 py-4">
+        <div class="container flex items-center justify-between">
+            <p class="text-white">&copy; KitaBaca - 2022</p>
+            <div>
+                <img src="../assets/images/methods.png" alt="methods" class="h-5">
+            </div>
+        </div>
+    </div>
+    <!-- ./copyright -->
+
+</body>
+
+</html>
